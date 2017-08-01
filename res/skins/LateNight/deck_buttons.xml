@@ -8,7 +8,7 @@
 		<Children>
 			<WidgetGroup>
 				<ObjectName>FFRew</ObjectName>
-				<Layout>vertical</Layout>
+				<Layout>horizontal</Layout>
 				<Children>
 					<PushButton>
 						<TooltipId>back_start</TooltipId>
@@ -27,12 +27,7 @@
 							<ButtonState>RightButton</ButtonState>
 						</Connection>
 					</PushButton>
-				</Children>
-			</WidgetGroup>
-			<WidgetGroup>
-				<Layout>vertical</Layout>
-				<ObjectName>FFRew</ObjectName>
-				<Children>
+
 					<PushButton>
 						<TooltipId>fwd_end</TooltipId>
 						<NumberStates>1</NumberStates>
@@ -50,12 +45,7 @@
 							<ButtonState>RightButton</ButtonState>
 						</Connection>
 					</PushButton>
-				</Children>
-			</WidgetGroup>
-			<WidgetGroup>
-				<Layout>vertical</Layout>
-				<ObjectName>FFRew</ObjectName>
-				<Children>
+
 					<PushButton>
 						<TooltipId>reverse</TooltipId>
 						<NumberStates>1</NumberStates>
@@ -74,13 +64,7 @@
 							<ButtonState>RightButton</ButtonState>
 						</Connection>
 					</PushButton>
-				</Children>
-			</WidgetGroup>
 
-			<WidgetGroup>
-				<ObjectName>PlayCue</ObjectName>
-				<Layout>vertical</Layout>
-				<Children>
 					<PushButton>
 						<TooltipId>play_cue_set</TooltipId>
 						<NumberStates>2</NumberStates>
