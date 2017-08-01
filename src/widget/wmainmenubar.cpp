@@ -70,6 +70,7 @@ WMainMenuBar::WMainMenuBar(QWidget* pParent, UserSettingsPointer pConfig,
     //         this, SLOT(slotVisitUrl(QString)));
     // connect(&m_vinylControlEnabledMapper, SIGNAL(mapped(int)),
     //         this, SIGNAL(toggleVinylControl(int)));
+
 }
 
 void WMainMenuBar::initialize() {

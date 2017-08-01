@@ -47,7 +47,9 @@ int runMixxx(MixxxApplication* app, const CmdlineArgs& args) {
         mainWindow.finalize();
     } else {
         qDebug() << "Displaying main window";
-        mainWindow.show();
+        // mainWindow.show();
+
+        mainWindow.showFullScreen();
 
         qDebug() << "Running Mixxx";
         result = app->exec();
