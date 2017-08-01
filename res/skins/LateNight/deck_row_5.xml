@@ -91,20 +91,6 @@
 		              <ConfigKey>[Channel<Variable name="channum"/>],repeat</ConfigKey>
 	              </Connection>
               </PushButton>
-              <PushButton>
-	              <TooltipId>eject</TooltipId>
-	              <Style></Style>
-	              <NumberStates>1</NumberStates>
-	              <State>
-		              <Number>0</Number>
-		              <Pressed>btn_eject2_over.png</Pressed>
-		              <Unpressed>btn_eject2.png</Unpressed>
-	              </State>
-	              <Connection>
-		              <ConfigKey>[Channel<Variable name="channum"/>],eject</ConfigKey>
-		              <ButtonState>LeftButton</ButtonState>
-	              </Connection>
-              </PushButton>
     	      </Children>
     	    </WidgetGroup>
         </Children>

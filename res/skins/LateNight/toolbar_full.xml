@@ -1,37 +1,3 @@
 <Template>
-    <WidgetGroup>
-        <ObjectName>UIButtons</ObjectName>
-        <Layout>horizontal</Layout>
-        <SizePolicy>e,min</SizePolicy>
-        <Children>
-            <WidgetGroup>
-                <ObjectName>GuiToggleContainer</ObjectName>
-                <Layout>vertical</Layout>
-                <SizePolicy>min,min</SizePolicy>
-                <Children>
-                    <PushButton>
-                        <Size>50f,20f</Size>
-                        <TooltipId>show_library</TooltipId>
-                        <ObjectName>GuiToggleButton</ObjectName>
-                        <NumberStates>2</NumberStates>
-                        <State>
-                          <Number>0</Number>
-                          <Text>LIBRARY</Text>
-                        </State>
-                        <State>
-                          <Number>1</Number>
-                          <Text>LIBRARY</Text>
-                        </State>
-                        <Connection>
-                          <ConfigKey persist="true">[Library],show_library</ConfigKey>
-                          <ButtonState>LeftButton</ButtonState>
-                        </Connection>
-                        <Connection>
-                          <ConfigKey persist="true">[Library],show_library</ConfigKey>
-                        </Connection>
-                    </PushButton>
-                </Children>
-            </WidgetGroup>
-        </Children>
-    </WidgetGroup>
+
 </Template>
