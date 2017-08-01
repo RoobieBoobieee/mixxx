@@ -63,13 +63,13 @@ WMainMenuBar::WMainMenuBar(QWidget* pParent, UserSettingsPointer pConfig,
         : QMenuBar(pParent),
           m_pConfig(pConfig),
           m_pKbdConfig(pKbdConfig) {
-    initialize();
-    connect(&m_loadToDeckMapper, SIGNAL(mapped(int)),
-            this, SIGNAL(loadTrackToDeck(int)));
-    connect(&m_visitUrlMapper, SIGNAL(mapped(QString)),
-            this, SLOT(slotVisitUrl(QString)));
-    connect(&m_vinylControlEnabledMapper, SIGNAL(mapped(int)),
-            this, SIGNAL(toggleVinylControl(int)));
+    // initialize();
+    // connect(&m_loadToDeckMapper, SIGNAL(mapped(int)),
+    //         this, SIGNAL(loadTrackToDeck(int)));
+    // connect(&m_visitUrlMapper, SIGNAL(mapped(QString)),
+    //         this, SLOT(slotVisitUrl(QString)));
+    // connect(&m_vinylControlEnabledMapper, SIGNAL(mapped(int)),
+    //         this, SIGNAL(toggleVinylControl(int)));
 }
 
 void WMainMenuBar::initialize() {
