@@ -258,28 +258,6 @@
                         <SizePolicy>min,min</SizePolicy>
                         <MinimumSize>52,</MinimumSize>
                         <Children>
-                            <PushButton>
-                                <Size>52,17</Size>
-                                <ObjectName>SyncToggleButton</ObjectName>
-                                <TooltipId>sync_enabled</TooltipId>
-                                <NumberStates>2</NumberStates>
-                                <State>
-                                    <Number>0</Number>
-                                    <Text>SYNC</Text>
-                                </State>
-                                <State>
-                                    <Number>1</Number>
-                                    <Text>SYNC</Text>
-                                </State>
-                                <Connection>
-                                    <ConfigKey>[Channel<Variable name="channum" />],sync_enabled</ConfigKey>
-                                    <ButtonState>LeftButton</ButtonState>
-                                </Connection>
-                                <Connection>
-                                    <ConfigKey>[Channel<Variable name="channum" />],beatsync</ConfigKey>
-                                    <ButtonState>RightButton</ButtonState>
-                                </Connection>
-                            </PushButton>
                             <!-- Disable explicit master for now. -->
                             <!-- <PushButton>
                                 <TooltipId>sync_master</TooltipId>
