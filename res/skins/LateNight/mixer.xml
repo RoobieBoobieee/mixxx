@@ -249,25 +249,6 @@
                                         </Template>
                                       </Children>
                                     </WidgetGroup>
-                                    <WidgetGroup>
-                                      <Layout>vertical</Layout>
-                                      <SizePolicy>min,max</SizePolicy>
-                                      <ObjectName>MasterKnobCol</ObjectName>
-                                      <Children>
-                                          <Template src="skin:knob.xml">
-                                            <SetVariable name="tooltip">headphone_gain</SetVariable>
-                                            <SetVariable name="group">[Master]</SetVariable>
-                                            <SetVariable name="control">headGain</SetVariable>
-                                            <SetVariable name="label">Head Gain</SetVariable>
-                                          </Template>
-                                          <Template src="skin:knob.xml">
-                                            <SetVariable name="tooltip">headMix</SetVariable>
-                                            <SetVariable name="group">[Master]</SetVariable>
-                                            <SetVariable name="control">headMix</SetVariable>
-                                            <SetVariable name="label">Pre/Main</SetVariable>
-                                          </Template>
-                                      </Children>
-                                    </WidgetGroup>
                                   </Children>
                                 </WidgetGroup>
                             </Children>

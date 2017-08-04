@@ -20,7 +20,7 @@ vertical layout and a side-by-side layout for two-deck mode -->
                     <Layout>horizontal</Layout>
                     <SizePolicy>min,max</SizePolicy>
                     <Children>
-                        <WidgetGroup>
+                        <!-- <WidgetGroup>
                             <Layout>horizontal</Layout>
                             <Children>
                                 <PushButton>
@@ -41,7 +41,7 @@ vertical layout and a side-by-side layout for two-deck mode -->
                                     </Connection>
                                 </PushButton>
                             </Children>
-                        </WidgetGroup>
+                        </WidgetGroup> -->
                         <Template src="skin:knob_sized.xml">
                            <SetVariable name="width">48</SetVariable>
                            <SetVariable name="height">41</SetVariable>

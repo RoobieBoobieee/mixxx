@@ -13,7 +13,7 @@
         <Layout>horizontal</Layout>
         <SizePolicy>min,min</SizePolicy>
         <Children>
-            <WidgetGroup>
+            <!-- <WidgetGroup>
                 <ObjectName>KillButton<Variable name="reversed"/></ObjectName>
                 <Layout>horizontal</Layout>
                 <SizePolicy>min,min</SizePolicy>
@@ -41,7 +41,7 @@
                         </Connection>
                     </EffectPushButton>
                 </Children>
-            </WidgetGroup>
+            </WidgetGroup> -->
             <WidgetGroup>
                 <Layout>horizontal</Layout>
                 <SizePolicy>me, min</SizePolicy>
